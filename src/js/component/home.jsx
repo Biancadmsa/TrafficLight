@@ -1,4 +1,3 @@
-
 import React, {useState} from "react";
 
 export function TrafficLight () {
@@ -11,7 +10,7 @@ export function TrafficLight () {
 			<div className={"light green" + (selectedColor === "green" ? " glow": "")} onClick={() => setSelectedColor("green")}></div>
 			<div className="tube"></div>
 		</div>
-		
 	);
 }
+
 export default TrafficLight;

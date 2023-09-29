@@ -1,11 +1,12 @@
 *{
 background: rgb(108, 186, 223);
 }
+
 .container {
   display: flex;
   justify-content: center;
-  
 }
+
 .traffic-light {
   position: absolute;
   top: 10%;
@@ -18,9 +19,6 @@ background: rgb(108, 186, 223);
   margin:auto
  }
 
- 
-
- 
  .light {
   width: 100px;
   height: 100px;
@@ -45,8 +43,6 @@ background: rgb(108, 186, 223);
   box-shadow: 0 0 5px 2px #fff, 0 0 10px 5px #fff, 0 0 20px 10px #fff, 0 0 30px 15px #fff, 0 0 40px 20px #fff;
  }
  
- 
-
  .tube {
   position: absolute;
   top: -22%; /* Modificado */
@@ -56,6 +52,5 @@ background: rgb(108, 186, 223);
   height: 23%;
   background-color: black;
   border-radius: 5px;
-  
  }
  
